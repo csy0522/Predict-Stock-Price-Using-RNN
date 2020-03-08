@@ -59,4 +59,4 @@ Download any stock price charts from online (Ex: Kaggle) and insert the data to 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
