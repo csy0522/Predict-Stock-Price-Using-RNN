@@ -4,39 +4,30 @@ This project predicts Apple's stock price by using Recurrent Neural Netowrk (RNN
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Use any python IDE to open the project. I personally use Spyder from Anaconda.You can download both Anaconda or Spyder from the following links:
+* [Anaconda](https://www.anaconda.com/distribution/) - The Data Science Platform for Python/R
+* [Spyder](https://www.spyder-ide.org/) - The Scientific Python Development Environment
 
-### Prerequisites
+### Installation
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+Before running the program, type the following command to install the libraries that the project depends on
 
 ```
-Give the example
+pip install numpy, pandas, matplotlib, sklearn, tensorflow
 ```
-
-And repeat
+Or simply type the following:
 
 ```
-until finished
+pip install -r requirements.txt
 ```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+The description of each function is located on top of them. Please read them before running for clarity.
 
-### Break down into end to end tests
+To run the test, go to main.py, and run (Press F5 for most of the IDEs)
+
+### Break down into end to end tests ----------------- To Be Continued...
 
 Explain what these tests test and why
 
@@ -54,37 +45,20 @@ Give an example
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+Download stock price charts of any companies or firms from online and insert it to the model to test its accuracy & efficiency.
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+* [Python](https://www.python.org/) - The Programming Language
+* [Tensorflow](https://www.tensorflow.org/) - The end-to-end open source machine learning platform
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **CSY** - *Initial work* - [More Projects](https://github.com/csy0522)
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
 
 
 
