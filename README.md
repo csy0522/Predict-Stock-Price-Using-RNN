@@ -45,7 +45,8 @@ Give an example
 
 ## Deployment
 
-Download stock price charts of any companies or firms from online and insert it to the model to test its accuracy & efficiency.
+Download any stock price charts from online (Ex: Kaggle) and insert the data to the model in order to test its accuracy.
+* [Kaggle](https://www.kaggle.com/) - The Machine Learning and Data Science Community
 
 ## Built With
 
