@@ -1,0 +1,5 @@
+numpy==1.18.*
+pandas
+matplotlib==3.*
+sklearn
+tensorflow
