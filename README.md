@@ -55,7 +55,7 @@ Download any stock price charts from online (Ex: Kaggle) and insert the data to 
 
 ## Authors
 
-* **CSY** - *Initial work* - [More Projects](https://github.com/csy0522)
+* **CSY** - *Initial work* - [csy0522](https://github.com/csy0522)
 
 ## License
 
