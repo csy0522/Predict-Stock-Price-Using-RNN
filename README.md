@@ -28,7 +28,7 @@ The description of each function is located on top of them. Please read them bef
 To run the test, go to main.py, and run (Press F5 for most of the IDEs)
 
 ### Break down into end to end tests ----------------- To Be Continued...
-```
+
 Explain what these tests test and why
 
 ```
@@ -42,7 +42,7 @@ Explain what these tests test and why
 ```
 Give an example
 ```
-```
+
 ## Deployment
 
 Download any stock price charts from online (Ex: Kaggle) and insert the data to the model in order to test its accuracy.
