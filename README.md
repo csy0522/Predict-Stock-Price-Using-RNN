@@ -23,11 +23,13 @@ pip install -r requirements.txt
 
 ## Running the tests
 
-The description of each function is located on top of them. Please read them before running to understand the overall structure of the project. <br/>The following graph shows predictions on Open, High, Low, and Close using combinations of different models and hyperparameters.<br/>The following is the graph of Actual v.s Prediction:
+- The description of each function is located on top of them. Please read them before running to understand the overall structure of the project. <br/>- This project predicts the stock's Open, High, Low, and Close using combinations of different models and hyperparameters.<br/>- The following shows the predictions of Open, High, Low, and Close using one of the 4 different combinations.
 
 ![Actual V.S Prediction](/data/Actual_vs_Prediction_Graph.png)
 
-To explore more result, run the main.py file. The output will be showing more details.
+- The blue line is the actual stock price, and the red line is the prediction. <br/>
+
+- For more detail, please read the descriptions on top of each function, and run main.py. The output will be showing more dtails, including accuracy, loss, and more graphs.
 
 ## Deployment
 
