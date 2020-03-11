@@ -27,7 +27,7 @@ The description of each function is located on top of them. Please read them bef
 This project predicts stock prices from its Open, High, Low, and Close using combinations of different models and hyperparameters.
 The following is the graph of Actual v.s Prediction:
 
-![Image description](/data/Actual v.s Prediction Graph.png)
+![Actual V.S Prediction](/data/Actual_vs_Prediction_Graph.png)
 
 To explore more result, run the main.py file. The output will be showing more details.
 
