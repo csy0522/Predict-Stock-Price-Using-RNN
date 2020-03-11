@@ -7,7 +7,7 @@ Created on Tue Oct 29 17:18:50 2019
 """
 
 from RNN import RNN
-import HELPER_FUNC as hf
+import HELPER_FUNC as HF
 
 DATA_PATH = "../data/AAPL.csv"
 
@@ -16,12 +16,12 @@ if __name__ == "__main__":
     """
     Dataset
     """
-    data = hf.get_data(DATA_PATH)
+    data = HF.get_data(DATA_PATH)
 
     """
     Each Numerical Label from the Dataset
     """
-    open_, high_, low_, close_, adj_close_, volume_ = hf.separate_numerical_data(
+    open_, high_, low_, close_, adj_close_, volume_ = HF.separate_numerical_data(
         data
     )
 
@@ -40,8 +40,8 @@ if __name__ == "__main__":
     Staked Model
     """
     
-    base_model = [hf.lstm(30, False), hf.dropout(0.15), hf.dense(1)]
-    stacked_model = [hf.lstm(40, True),hf.dropout(0.2),hf.lstm(20, False),hf.dropout(0.1),hf.dense(1)]
+    base_model = [HF.lstm(30, False), HF.dropout(0.15), HF.dense(1)]
+    stacked_model = [HF.lstm(40, True),HF.dropout(0.2),HF.lstm(20, False),HF.dropout(0.1),HF.dense(1)]
     
     sequential = [base_model, base_model, stacked_model, stacked_model]
     
@@ -63,16 +63,16 @@ if __name__ == "__main__":
         )
 
         """ Format Training and Testing Set """
-        open_train_X, open_test_X, open_train_y, open_test_y = hf.get_normalized_training_test_set(
+        open_train_X, open_test_X, open_train_y, open_test_y = HF.get_normalized_training_test_set(
             open_, rnn.past_n_, test_size
         )
-        high_train_X, high_test_X, high_train_y, high_test_y = hf.get_normalized_training_test_set(
+        high_train_X, high_test_X, high_train_y, high_test_y = HF.get_normalized_training_test_set(
             high_, rnn.past_n_, test_size
         )
-        low_train_X, low_test_X, low_train_y, low_test_y = hf.get_normalized_training_test_set(
+        low_train_X, low_test_X, low_train_y, low_test_y = HF.get_normalized_training_test_set(
             low_, rnn.past_n_, test_size
         )
-        close_train_X, close_test_X, close_train_y, close_test_y = hf.get_normalized_training_test_set(
+        close_train_X, close_test_X, close_train_y, close_test_y = HF.get_normalized_training_test_set(
             close_, rnn.past_n_, test_size
         )
 
