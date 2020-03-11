@@ -25,7 +25,7 @@ pip install -r requirements.txt
 
 - The description of each function is located on top of them. Please read them before running to understand the overall structure of the project. <br/>
 - This project predicts the stock's Open, High, Low, and Close using combinations of different models and hyperparameters.<br/>
-- The following shows the predictions of Open, High, Low, and Close using one of the 4 different combinations.
+- The following shows the predictions of Open, High, Low, and Close using the basic model:
 
 ![Actual V.S Prediction](/data/Actual_vs_Prediction_Graph.png)
 
