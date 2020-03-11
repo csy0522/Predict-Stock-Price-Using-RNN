@@ -30,7 +30,8 @@ pip install -r requirements.txt
 ![Actual V.S Prediction](/data/Actual_vs_Prediction_Graph.png)
 
 - The blue line is the actual stock price, and the red line is the prediction. <br/>
-- For more detail, please read the descriptions on top of each function, and run **main.py**. Make sure to run it from an ide that's able to show graphs. The output will show more deails, including accuracy, loss, and more graphs.
+- For more detail, please read the descriptions on top of each function, and run **main.py**. Make sure to run it from an ide that's able to show graphs. The output will show more deails, including accuracy, loss, and more graphs.<br/>
+- I also added a ipynb file for the main function if you want to run it using * [Jupyter](https://jupyter.org/)
 
 ## Deployment
 
