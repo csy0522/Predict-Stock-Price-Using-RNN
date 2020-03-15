@@ -27,7 +27,7 @@ pip install -r requirements.txt
 - This project predicts the stock's Open, High, Low, and Close using combinations of different models and hyperparameters.<br/>
 - The following shows the predictions of Open, High, Low, and Close using the basic model:
 
-![Actual V.S Prediction](/data/Actual_vs_Prediction_Graph.png)
+![Actual V.S Prediction](/data/Actual_vs_Prediction_Graph.png | width=100)
 
 - The blue line is the actual stock price, and the red line is the prediction. <br/>
 - For more detail, please read the descriptions on top of each function, and run **main.py**. Make sure to run it from an ide that's able to show graphs. The output will show more deails, including accuracy, loss, and more graphs.<br/>
