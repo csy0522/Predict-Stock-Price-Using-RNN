@@ -41,7 +41,6 @@ Download any stock price charts from online (Ex: Kaggle) and insert the data to 
 ## Built With
 
 * [Python](https://www.python.org/) - The Programming Language
-* [Tensorflow](https://www.tensorflow.org/) - The end-to-end open source machine learning platform
 
 ## Author
 
