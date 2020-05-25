@@ -8,6 +8,10 @@ Use any python IDE to open the project. I personally use Spyder from Anaconda.Yo
 * [Anaconda](https://www.anaconda.com/distribution/) - The Data Science Platform for Python/R
 * [Spyder](https://www.spyder-ide.org/) - The Scientific Python Development Environment
 
+### Data
+
+The data for this project is available on Kaggle which a huge community space for data scientists. Click the following link to download the dataset:
+* [Stock_Price_Dataset](https://www.kaggle.com/tarunpaparaju/apple-aapl-historical-stock-data) - Kaggle Stock
 ### Installation
 
 Before running the program, type the following command to install the libraries that the project depends on
